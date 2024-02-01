@@ -264,7 +264,7 @@ const LINUX_ABI: &[&str] = &[
 
 /// Operating systems that have the same ABI as macOS on every architecture
 /// mentioned in `ASM_TARGETS`.
-const MACOS_ABI: &[&str] = &["ios", MACOS, "tvos"];
+const MACOS_ABI: &[&str] = &["ios", MACOS, "tvos", "watchos"];
 
 const MACOS: &str = "macos";
 const WINDOWS: &str = "windows";
